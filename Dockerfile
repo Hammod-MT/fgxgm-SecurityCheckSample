@@ -1,4 +1,4 @@
-FROM node:gnutls28/libgnutls30@3.7.9-2
+FROM node:21.4-bookworm-slim
 
 RUN npm install -g npm@9.1.3
 
